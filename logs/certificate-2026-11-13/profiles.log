@@ -1,0 +1,14 @@
+cwd: /Users/iwasborninbali/projects/science/oeis-A399138
+command: python3 -B /tmp/c7-profile.py
+exit: 0
+elapsed_seconds: 0.036
+
+axis 0 layers [8, 8, 7, 9, 8]
+axis 1 layers [9, 8, 7, 9, 7]
+axis 2 layers [8, 8, 8, 8, 8]
+from collections import Counter
+from pathlib import Path
+p=Path("witnesses/A399138_n5_40_nonuniform_cube.txt")
+pts=[tuple(map(int,l.split())) for l in p.read_text().splitlines() if l and not l.startswith("#")]
+for axis in range(3):
+ c=Counter(q[axis] for q in pts); print("axis",axis,"layers",[c[i] for i in range(5)])

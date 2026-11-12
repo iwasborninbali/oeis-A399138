@@ -1,0 +1,16 @@
+cwd: /Users/iwasborninbali/projects/science/oeis-A399138
+command: python3 -B check_table.py
+exit: 0
+elapsed_seconds: 1.647
+
+n=1: 1 points, no collinear triple
+n=2: 8 points, no collinear triple
+n=3: 16 points, no collinear triple
+n=4: 28 points, no collinear triple
+n=5: 40 points, no collinear triple
+n=6: 64 points, no collinear triple
+n=7: 73 points, no collinear triple
+n=8: 94 points, no collinear triple
+n=9: 116 points, no collinear triple
+n=10: 138 points, no collinear triple
+n=11: 164 points, no collinear triple

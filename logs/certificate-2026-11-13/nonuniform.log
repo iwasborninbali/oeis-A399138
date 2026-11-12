@@ -1,0 +1,6 @@
+cwd: /Users/iwasborninbali/projects/science/oeis-A399138
+command: python3 -B tools/verify_witness_lines.py 5 witnesses/A399138_n5_40_nonuniform_cube.txt 40
+exit: 0
+elapsed_seconds: 0.048
+
+  n=5: точек 40, проверено троек 9880, коллинеарных 0  — свидетель ЧИСТ

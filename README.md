@@ -42,3 +42,5 @@ python3 -B tools/audit_coverage_indep.py 6
 ## Archive and licence
 
 Aleksei Kudriashov (ORCID 0009-0006-8885-5338), Athanor lab, with AI assistance. The paper is archived at [Zenodo 10.5281/zenodo.22019279](https://doi.org/10.5281/zenodo.22019279); the original working material is in [saturation](https://github.com/iwasborninbali/saturation). Code: MIT; data and text: CC BY 4.0; see [LICENSE.md](LICENSE.md).
+
+[Verification certificate](CERTIFICATE.md) and [prior-art record](PRIOR-ART.md).
