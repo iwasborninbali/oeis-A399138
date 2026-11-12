@@ -1,0 +1,7 @@
+# Verification protocol
+
+The lower and upper bounds are separate claims. From the repository root, `python3 -B check_table.py` checks counts, distinctness, grid range and every triple in the tabulated configurations; `tools/verify_witness_lines.py` provides an independent checker for individual point files (pass n, path, expected count). A clean witness proves only a lower bound.
+
+For n=5 and 6, the upper-bound logs record SAT instances with respectively 41 and 65 points, split by two columns and further split where needed. Run the two coverage commands in the README; they audit recorded statuses and arithmetic coverage, not the validity of UNSAT. The independent aggregator also checks that all child indices are present. A killed run is not UNSAT; n=6 has 11 such records, all covered by explicit UNSAT records for the relevant cases.
+
+The encoding of collinearity, cardinality, the soundness of symmetry breaking, and the SAT results require separate scrutiny. The source paper explains these checks and the missing proof traces. See the original broader [verification protocol](https://github.com/iwasborninbali/saturation/blob/4721db3e643fb7536cbb0f54630afe83b047f6dd/docs/VERIFICATION.md) and its [SAT generators and audit tools](https://github.com/iwasborninbali/saturation/tree/4721db3e643fb7536cbb0f54630afe83b047f6dd/slack/targets). The complete original certificates for split cases were not retained; no complete proof-certificate replay is claimed here.
