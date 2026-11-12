@@ -1,5 +1,14 @@
 # OEIS A399138: no three collinear points in a cube
 
+<!-- oeis-status:begin -->
+**OEIS status** (lab registry, 13 Nov 2026):
+
+- [A399138](https://oeis.org/A399138), no three collinear in the n X n X n grid: a(1..6): **approved** (2026-08-19: sequence created). Certificate: complete.
+- [A399138](https://oeis.org/A399138), delete our false comment on layer profiles; witness file n = 1..11 (a(9) >= 116, a(10) >= 138, a(11) >= 164): **queued** (2026-11-13: prepared and queued). Certificate: complete.
+
+Rules and the full registry: [athanor-oeis](https://github.com/iwasborninbali/athanor-oeis/blob/main/REGISTRY.md).
+<!-- oeis-status:end -->
+
 [A399138](https://oeis.org/A399138): a(n) is the greatest number of points in an n × n × n grid with no three collinear in Euclidean space. Aleksei Kudriashov introduced the sequence in August 2026.
 
 | n | 1 | 2 | 3 | 4 | 5 | 6 |
