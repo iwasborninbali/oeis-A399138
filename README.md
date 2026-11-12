@@ -3,8 +3,8 @@
 <!-- oeis-status:begin -->
 **OEIS status** (lab registry, 13 Nov 2026):
 
-- [A399138](https://oeis.org/A399138), no three collinear in the n X n X n grid: a(1..6): **approved** (2026-08-19: sequence created). Certificate: complete.
-- [A399138](https://oeis.org/A399138), delete our false comment on layer profiles; witness file n = 1..11 (a(9) >= 116, a(10) >= 138, a(11) >= 164): **queued** (2026-11-13: prepared and queued). Certificate: complete.
+- [A399138](https://oeis.org/A399138), no three collinear in the n X n X n grid: a(1..6): **approved** (2026-11-13: gap found: upper-bound proofs for n = 5, 6 not retained). Certificate: partial.
+- [A399138](https://oeis.org/A399138), delete our false comment on layer profiles; witness file n = 1..11 (a(9) >= 116, a(10) >= 138, a(11) >= 164): **proposed** (2026-11-13: submitted: false layer-profile comment deleted; witness file a399138_1.txt (n = 1..11); repository link). Certificate: complete.
 
 Rules and the full registry: [athanor-oeis](https://github.com/iwasborninbali/athanor-oeis/blob/main/REGISTRY.md).
 <!-- oeis-status:end -->
